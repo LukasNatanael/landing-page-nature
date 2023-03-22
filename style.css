@@ -104,7 +104,7 @@ img#mulher {
     position: relative;
     z-index: -1;
     width: 40%;
-    bottom: 8em;
+    bottom: 8.2em;
     left: 4em;
 }
 
@@ -165,5 +165,5 @@ img#mulher {
 
 input[type=button]#enviar {
     display: flex;
-    margin-left: 13em;
+    margin-left: 9.8em;
 }
