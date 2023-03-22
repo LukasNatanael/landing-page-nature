@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --verde: #588157;
+    --azul-claro: #F1FAEE;
+    --cinza-escuro: #232323;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background-color: var(--cinza-escuro);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+    padding: .5em;
+    gap: 1em;
+
+    font-size: .8em;
+
+    position: relative;
+    z-index: 1;
+
+}
+
+header > img {
+    width: 3em;
+}
+
+header > nav {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+    transition: all .5s ease;
+}
+
+a:hover {
+    color: var(--verde);
+    transform: translateY(-.3em);
+    border-bottom: .2em solid var(--verde);
+    border-radius: 10%;
+}
+
+input[type=button] {
+    padding: 0.5em 1.2em;
+    color: white;
+    border: .2em solid var(--verde);
+    border-radius: 1em;
+    background-color: transparent;
+    cursor: pointer;
+
+    transition: all .5s ease;
+
+}
+
+input[type=button]:hover {
+    background-color: var(--verde);
+}
+
+
+main {
+    height: 90vh;
+    position: relative;
+    bottom: 9em;
+}
+
+img#mancha1 {
+    position: relative;
+    z-index: -1;
+    top: 10em;
+    left: 10em;
+    width: 50%;
+}
+
+img#mancha2 {
+    position: relative;
+    z-index: -1;
+    width: 40%;
+    bottom: 8em;
+    left: 2em;
+    transform: rotateY(180deg);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    padding-top: 0;
+}
+
+.main > h1 {
+    font-weight: bolder;
+    font-size: 2.8em;
+    /* margin-bottom: 0.3em; */
+}
+
+.main > p {
+    width: 20em;
+    /* max-width: 50%; */
+    text-align: justify;
+    font-size: .8em;
+    line-height: 1em;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4em;
+    margin-left: 3.2em;
+}
+
+.input-personalizado {
+    border: none;
+    border-bottom: 1px solid white;
+    width: 80%;
+    background-color: transparent;
+    color: white;
+}
+
+:focus {
+    outline: none;
+}
+
+.form #msg {
+    width: 80%;
+    max-height: 7.6em;
+    max-width: 19.5em;
+    padding: .3em;
+    background-color: rgba(0, 0, 0, 0.301);
+    color: white;
+    border: 1px solid white;
+    border-radius: 0.5em;
+}
+
+
+input[type=button]#enviar {
+    display: flex;
+    margin-left: 13em;
+}
