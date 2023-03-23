@@ -32,8 +32,6 @@ header {
     position: relative;
     z-index: 1;
 
-    top: 8em;
-
 }
 
 header > img {
@@ -84,7 +82,7 @@ input[type=button]:hover {
 main {
     height: 90vh;
     position: relative;
-    bottom: 4em;
+    bottom: 9em;
 }
 
 img#mancha1 {
