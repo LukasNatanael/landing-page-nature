@@ -16,6 +16,8 @@ body {
     background-color: var(--cinza-escuro);
     color: white;
     font-family: 'Poppins', sans-serif;
+
+    overflow-y: hidden;
 }
 
 header {
@@ -29,6 +31,8 @@ header {
 
     position: relative;
     z-index: 1;
+
+    top: 8em;
 
 }
 
@@ -80,7 +84,7 @@ input[type=button]:hover {
 main {
     height: 90vh;
     position: relative;
-    bottom: 9em;
+    bottom: 4em;
 }
 
 img#mancha1 {
@@ -91,22 +95,6 @@ img#mancha1 {
     width: 50%;
 }
 
-img#mancha2 {
-    position: relative;
-    z-index: -1;
-    width: 40%;
-    bottom: 8em;
-    left: 2em;
-    transform: rotateY(180deg);
-}
-
-img#mulher {
-    position: relative;
-    z-index: -1;
-    width: 40%;
-    bottom: 8.2em;
-    left: 4em;
-}
 
 .main {
     display: flex;
@@ -115,6 +103,7 @@ img#mulher {
     align-items: center;
     padding: 1em;
     padding-top: 0;
+
 }
 
 .main > h1 {
@@ -166,4 +155,29 @@ img#mulher {
 input[type=button]#enviar {
     display: flex;
     margin-left: 9.8em;
+}
+
+img#mancha2 {
+    position: relative;
+    z-index: -1;
+    width: 40%;
+    bottom: 8em;
+    left: 2em;
+    transform: rotateY(180deg);
+}
+
+img#mulher {
+    position: relative;
+    z-index: -1;
+    width: 40%;
+    bottom: 8.2em;
+    left: 4em;
+}
+
+img#ramo {
+    position: relative;
+    z-index: -1;
+    width: 20%;
+    bottom: 29em;
+    left: 18em;
 }
