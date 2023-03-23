@@ -1,74 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-:root {
-    --verde: #588157;
-    --azul-claro: #F1FAEE;
-    --cinza-escuro: #232323;
-}
-
-* {
-    margin: 0;
-    /* padding: 0; */
-    box-sizing: border-box;
-}
-
-body {
-    background-color: var(--cinza-escuro);
-    color: white;
-    font-family: 'Poppins', sans-serif;
-
-    overflow-y: hidden;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-header {
-    display: flex;
-    align-items: center;
-    margin: auto;
-    justify-content: space-around;
-    padding: .5em;
-    gap: 1em;
-
-    font-size: .8em;
-
-    position: relative;
-    z-index: 1;
-
-}
-
 #btn-home {
     color: var(--verde);
     border-bottom: .2em solid var(--verde);
     border-radius: 10%;
     font-weight: bold;
-}
-
-header > img {
-    width: 3em;
-}
-
-header > nav {
-    display: flex;
-    gap: 1em;
-    align-items: center;
-    justify-content: center;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-    
-    transition: all .5s ease;
-}
-
-a:hover {
-    color: var(--verde);
-    transform: translateY(-.3em);
-    border-bottom: .2em solid var(--verde);
-    border-radius: 10%;
 }
 
 input[type=button] {
@@ -155,7 +89,8 @@ img#mancha1 {
     max-height: 7.8em;
     max-width: 19.5em;
     padding: .3em;
-    background-color: rgba(0, 0, 0, 0.301);
+    background-color: #2323236b;
+
     color: white;
     border: 1px solid white;
     border-radius: 0.5em;
