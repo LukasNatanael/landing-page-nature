@@ -16,6 +16,7 @@ main h1 {
     z-index: -1;
     bottom: 5.5em;
     left: 5em;
+    width: 50%;
 }
 
 .flores #flor1, #flor2 {
@@ -26,9 +27,11 @@ main h1 {
 
 .flores #flor1 {
     left: .5em;
+    width: 50%;
 }
 .flores #flor2 {
     left: 4.2em;
+    width: 20%;
 }
 
 .container {
@@ -65,14 +68,15 @@ section h2 {
     /* z-index: -1; */
     bottom: 22em;
     left: 6.5em;
+    width: 50%;
 
 }
 
 #mancha2 {
     position: relative;
     z-index: -1;
-    bottom: 26em;
-    right: 12.5em;
+    bottom: 25em;
+    right: 11.6em;
     transform: rotateY(180deg);
     width: 35%;
 }
