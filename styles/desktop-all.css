@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --verde: #588157;
+    --azul-claro: #F1FAEE;
+    --cinza-escuro: #232323;
+    --cinza-50: #2323237e;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding: 1em;
+    color: var(--azul-claro);
+    max-width: 1440px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.border {
+    border: 1px solid red;
+}
+
+.cabecalho {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    gap: 20%;
+    margin: auto;
+}
+
+.cabecalho nav {
+    display: flex;
+    align-items: center;
+    gap: 20%;
+}
+
+.cabecalho a:hover {
+    color: var(--verde);
+    border-bottom: 2px solid var(--verde);
+}
+
+
+#btn-login {
+    border-radius: 1em;
+    padding: .2em 2em;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 15%;
+
+    height: 80vh;
+
+    position: relative;
+    bottom: 12em;
+}
+
+.container h1 {
+    font-size: 5em;
+    color: inherit;
+    margin-bottom: 0;
+}
+
+.dados input {
+    background-color: transparent;
+    border: transparent;
+    border-bottom: .2em solid var(--azul-claro);
+}
+
+:focus {
+    outline: none;
+}

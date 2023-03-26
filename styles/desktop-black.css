@@ -1,0 +1,116 @@
+body {
+    background-color: var(--cinza-escuro);
+}
+
+.cabecalho a{
+    color: var(--azul-claro);
+}
+
+#btn-login {
+    border: .2em solid var(--verde);
+    color: var(--azul-claro);
+}
+
+#btn-login:hover {
+    background-color: var(--verde);
+    color: var(--azul-claro);
+}
+
+
+.container p {
+    width: 80%;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+hr {
+    width: 40%;
+    color: var(--azul-claro);
+    margin-left: 20%;
+}
+
+.form {
+    display: flex;
+    width: 80%;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dados {
+    display: flex;
+    flex-direction: column;
+}
+
+.dados input {
+    width: 20em;
+    color: var(--azul-claro);
+    margin-bottom: 1em;
+}
+
+.mensagem {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1.5em;
+}
+
+.mensagem textarea {
+    border-radius: .5em;
+    background-color: var(--cinza-50);
+    border: .2em solid var(--azul-claro);
+    margin-bottom: 1em;
+    color: var(--azul-claro);
+    padding: .5em;
+
+    resize: none;
+}
+
+.mensagem #enviar {
+    background-color: var(--verde);
+    color: var(--azul-claro);
+    padding: .6em 0;
+    border: none;
+    border-radius: 1em;
+    width: 50%;
+    align-self: flex-start;
+    cursor: pointer;
+}
+
+#mancha1 {
+    position: relative;
+    width: 20%;
+    z-index: -1;
+    top: 14em;
+    left: 21em;
+    
+    transform: rotateX(190deg);
+    
+}
+
+#mancha2 {
+    position: relative;
+    width: 20%;
+    bottom: 12em;
+    left: 38em;
+    z-index: -1;
+    
+}
+
+#ramo {
+    position: relative;
+    width: 13%;
+    bottom: 31.4em;
+    left: 18em;
+    z-index: -1;
+    
+    transform: rotateY(180deg);
+}
+
+#mulher {
+    position: relative;
+    width: 50%;
+    bottom: 56em;
+    left: 48em;
+}
