@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --verde: #588157;
+    --azul-claro: #F1FAEE;
+    --cinza-escuro: #232323;
+    --cinza-50: #2323237e;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.cabecalho #logo {
+    width: 2em;
+}
+
+.cabecalho nav {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+#btn-login {
+    background-color: transparent;
+    border: .2em solid var(--verde);
+    padding: 0 1em;
+    border-radius: 1em;
+}
+
+.container h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container p {
+    padding: .5em;
+    text-align: justify;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1em;
+    width: 80%;
+}
+
+.dados {
+    display: flex;
+    flex-direction: column;
+}
+
+.mensagem {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#mancha1, #mancha2, #ramo, #mulher{
+    display: none;
+}

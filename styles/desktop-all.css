@@ -16,6 +16,8 @@ body {
     padding: 1em;
     color: var(--azul-claro);
     max-width: 1440px;
+    min-width: 600px;
+
 }
 
 a {
@@ -33,6 +35,7 @@ a {
     width: 60%;
     gap: 20%;
     margin: auto;
+    z-index: 1;
 }
 
 .cabecalho nav {
@@ -41,7 +44,7 @@ a {
     gap: 20%;
 }
 
-.cabecalho a:hover {
+.cabecalho nav a:hover {
     color: var(--verde);
     border-bottom: 2px solid var(--verde);
 }
@@ -62,17 +65,15 @@ main {
     flex-direction: column;
     width: 60%;
     margin-left: 15%;
-
     height: 80vh;
-
-    position: relative;
-    bottom: 12em;
 }
+
 
 .container h1 {
     font-size: 5em;
     color: inherit;
     margin-bottom: 0;
+    margin: 0;
 }
 
 .dados input {
