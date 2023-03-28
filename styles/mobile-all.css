@@ -20,6 +20,9 @@ a {
     text-decoration: none;
 }
 
+
+@media screen and (max-width: 500px) {
+
 .cabecalho {
     display: flex;
     justify-content: center;
@@ -75,4 +78,5 @@ a {
 
 #mancha1, #mancha2, #ramo, #mulher{
     display: none;
+}
 }
