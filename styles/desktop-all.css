@@ -85,3 +85,68 @@ main {
 :focus {
     outline: none;
 }
+
+@media screen and (max-width: 500px) {
+
+    .cabecalho {
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        gap: 1em;
+        margin: 0;
+        
+    }
+    
+    .cabecalho #logo {
+        width: 2em;
+        margin: 0;
+    }
+    
+    .cabecalho nav {
+        display: flex;
+        align-items: center;
+        gap: .5em;
+
+        font-size: .7em;
+    }
+    
+    #btn-login {
+        background-color: transparent;
+        border: .2em solid var(--verde);
+        padding: 0 1em;
+        border-radius: 1em;
+    }
+
+    main {
+        position: absolute;
+        width: 90%;
+
+    }
+    
+    .container {
+        position: relative;
+        top: 0;
+        right: 4em;
+    }
+
+    .container h1 {
+        font-size: 3em;
+        
+    }
+
+    .container p {
+        font-size: .8em;
+        text-indent: none;
+    }
+    
+    .form {
+        flex-direction: column;
+        right: 4em;
+        top: 0;
+    }
+    
+    .form label {
+        font-size: .8em;
+    }
+
+}

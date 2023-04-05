@@ -135,29 +135,24 @@ hr {
 ---------------------------------
 */
 
-/* @media screen and (max-width: 1200px) {
-    body {
-        background-color: green;
-    }
-    
-}
-
-@media screen and (max-width: 992px) {
-    body {
-        background-color: yellow;
-    }
-    
-}
-
-@media screen and (max-width: 769px) {
-    body {
-        background-color: red;
-    }
-}
-
 @media screen and (max-width: 500px) {
-    body {
-        background-color: blue;
-        padding: .3em;
+    
+    #mancha2, #ramo, #mulher{
+        display: none;
     }
-} */
+    #mancha1 {
+        position: relative;
+        left: 11em;
+        width: 30%;
+    }
+
+    .container h1 {
+        position: absolute;
+        top: 0;
+    }
+
+    .container p {
+        position: relative;
+        bottom: 3em;
+    }
+}
