@@ -67,6 +67,8 @@ body {
 
 .container p {
     text-align: justify;
+    
+    font-size: .8em;
 }
 
 .linha {
