@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    /* Dark theme */
+    --verde: #588157;
+    --azul-claro: #F1FAEE;
+    --cinza-escuro: #232323;
+    --cinza-50: #2323237e;
+
+    /* Light theme */
+    --marrom-claro: #DAD7CD;
+    --verde-escuro: #344E41;
+    --verde-claro: #A3B18A;
+
+
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+body {
+    padding: 1em;
+}
+
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+
+.cabecalho #logo {
+    width: 2em;
+}
+
+.navegacao {
+    display: flex;
+    gap: 1em;
+}
+
+.conteudo {
+    margin-top: 3em;
+}
+
+.container h1 {
+    display: flex;
+    justify-content: center;
+
+    font-size: 3em;
+}
+
+.container p {
+    text-align: justify;
+}
+
+.linha {
+    margin: .5em;
+    color: var(--azul-claro);
+}
+
+.mensagem {
+    margin-top: 1em;
+}
+
+.input-personalizado {
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    
+    border-radius: .5em;
+    border: 1px solid var(--azul-claro);
+    padding: .3em;
+    background-color: transparent;
+
+    color: var(--azul-claro);
+}
+
+.input-dados {
+    border: none;
+    border-radius: 0;
+}
+
+#msg {
+    resize: none;
+    background-color: inherit;
+    border: transparent;
+    border: 1px solid var(--azul-claro);
+}
+
+.botao {
+    border-radius: .8em;
+    border: transparent;
+    padding: 0 1em;
+}
+
+#btn-login {
+    background-color: transparent;
+    color: var(--azul-claro);
+    border: 2px solid var(--verde);
+}
+
+#btn-login:hover {
+    background-color: var(--verde);
+}
+
+#enviar {
+    margin: .5em 0 0 13em;
+}
+
+.img {
+    position: relative;
+    z-index: -1;
+}
+
+#mancha1 {
+    bottom: 43em;
+    left: 15em;
+    width: 30%;
+}
+
+#mulher {
+    width: 40%;
+    bottom: 11em;
+    left: 7em;
+}
+
+#mancha2, #ramo {
+    display: none;
+}
+
+/* Classes para manipular com JS */
+
+/* Dark mode */
+.dark {
+    color: var(--azul-claro);
+    background-color: var(--cinza-escuro);
+}
+
+.dark-header a {
+    color: var(--azul-claro);
+}
+
+/* Light mode */
+
+.light {
+    color: var(--verde-escuro);
+    background-color: var(--marrom-claro);
+}
+
+.light-header a {
+    color: var(--verde-escuro);
+}

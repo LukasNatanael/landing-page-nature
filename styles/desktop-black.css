@@ -16,10 +16,10 @@ body {
     color: var(--azul-claro);
 }
 
-.container {
+/* .container {
     position: relative;
     bottom: 8em;
-}
+} */
 
 .container p {
     width: 80%;
@@ -40,7 +40,7 @@ hr {
     justify-content: center;
     align-items: center;
     position: relative;
-    bottom: 7em;
+    /* bottom: 7em; */
 
 }
 

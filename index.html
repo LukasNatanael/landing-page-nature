@@ -1,54 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="styles/desktop-all.css">
-    <link rel="stylesheet" href="styles/desktop-black.css">    
-    <!-- <link rel="stylesheet" href="styles/mobile-all.css"> -->
+
+    <link rel="stylesheet" href="styles/style.css">
+
 </head>
-<body>
-    <header class="cabecalho">
+<body class="dark">
+    <header class="cabecalho dark-header">
         <img src="img/logo-dark-pequeno.png" alt="logo" id="logo">
-        <nav>
+        <nav class="navegacao">
             <a href="#" id="btn-home">Início</a>
             <a href="pages/services.html" id="btn-service">Serviços</a>
             <a href="pages/about.html" id="btn-about">Sobre</a>
             <a href="#" id="btn-contact">Contatos</a>
-            <input type="button" value="Login" id="btn-login">
+            <input type="button" value="Login" id="btn-login" class="botao">
         </nav>
     </header>
-    <main>
-        <div class="container">
-            <img src="img/7-dark.png" alt="" id="mancha1">
+    <main class="conteudo">
+        <div class="container border">
             <h1>Bem - Vindo</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quas beatae dolor dolorem neque accusantium ullam nostrum et rem! Sint necessitatibus magni tempore excepturi commodi alias laboriosam ad explicabo tenetur?
             </p>
-            <hr>
+            <hr class="linha">
         </div>
-        <div class="form border">
+        <div class="form">
             <div class="dados">
                 <label for="nome">Nome</label>
-                <input type="text" id="nome" placeholder="usuario" required class="input-personalizado" autocomplete="off">
+                <input type="text" id="nome" placeholder="usuario" required class="input-dados input-personalizado dark-border" autocomplete="off">
 
                 <label for="email">Email</label>
-                <input type="email" id="email" placeholder="email" required class="input-personalizado" autocomplete="off">
+                <input type="email" id="email" placeholder="email" required class="input-dados input-personalizado dark-border" autocomplete="off">
 
                 <label for="telefone">Telefone</label>
-                <input type="number" id="telefone" placeholder="telefone" class="input-personalizado">
+                <input type="number" id="telefone" placeholder="telefone" class="input-dados input-personalizado dark-border">
             </div>
             <div class="mensagem">
                 <label for="msg">Mensagem</label>
-                <textarea id="msg" cols="30" rows="8" maxlength="280" placeholder="Sua mensagem" required autocomplete="off"></textarea>
-                <input type="button" value="Enviar >" id="enviar">
+                <textarea id="msg" cols="10" rows="8" maxlength="280" placeholder="Sua mensagem" required autocomplete="off" class="input-personalizado dark-border" ></textarea>
+                <input type="button" value="Enviar >" id="enviar" class="botao">
             </div>
         </div>
-        <img src="img/7-dark.png" alt="" id="mancha2" >
-        <img src="img/1-dark.png" alt="" id="ramo">
-        <img src="img/2-dark.png" alt="" id="mulher">
+        <img src="img/7-dark.png" alt="" id="mancha1" class="img">
+        <img src="img/7-dark.png" alt="" id="mancha2" class="img">
+        <img src="img/1-dark.png" alt="" id="ramo" class="img">
+        <img src="img/2-dark.png" alt="" id="mulher" class="img">
     </main>
     
+    <script src="js/script.js"></script>
 </body>
 </html>

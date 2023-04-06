@@ -41,7 +41,7 @@ a {
 .cabecalho nav {
     display: flex;
     align-items: center;
-    gap: 20%;
+    gap: 2em;
 }
 
 .cabecalho nav a:hover {
@@ -68,6 +68,10 @@ main {
     height: 80vh;
 }
 
+/* .container {
+    position: relative;
+    bottom: 0;
+} */
 
 .container h1 {
     font-size: 5em;
@@ -123,8 +127,8 @@ main {
 
     main {
         position: absolute;
-        width: 90%;
-
+        width: 100vw;
+        
     }
     
     .container {
