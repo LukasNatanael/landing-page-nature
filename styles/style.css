@@ -41,6 +41,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 1em;
+    font-size: 1em;
 }
 
 
@@ -50,11 +51,11 @@ body {
 
 .navegacao {
     display: flex;
-    gap: 1em;
+    gap: .4em;
 }
 
 .conteudo {
-    margin-top: 3em;
+    margin-top: 1em;
 }
 
 .container h1 {
