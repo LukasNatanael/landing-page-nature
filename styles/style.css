@@ -34,11 +34,13 @@ a {
 body {
     padding: 1em;
     overflow: hidden;
+    height: 100%;
 }
 
-/* main {
-    height: 89vh;
-} */
+main {
+    /* height: 89vh; */
+    height: 100%;
+}
 
 .cabecalho {
     display: flex;
