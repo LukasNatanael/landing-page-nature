@@ -5,13 +5,13 @@
     --verde: #588157;
     --azul-claro: #F1FAEE;
     --cinza-escuro: #232323;
-    --cinza-50: #2323237e;
+    --cinza-50: hsla(0, 0%, 14%, 0.494);
 
     /* Light theme */
-    --marrom-claro: #DAD7CD;
+    --marrom-claro: #c9c6be;
+    --marrom-claro-50: #dad7cd7e;
     --verde-escuro: #344E41;
-    --verde-claro: #A3B18A;
-
+    --verde-claro: #a3b18b7e
 
 }
 
@@ -49,6 +49,16 @@ body {
     width: 2em;
 }
 
+#btn-login {
+    background-color: transparent;
+    color: var(--azul-claro);
+    border: 2px solid var(--verde);
+}
+
+#btn-login:hover {
+    background-color: var(--verde);
+}
+
 .navegacao {
     display: flex;
     gap: .4em;
@@ -67,17 +77,20 @@ body {
 
 .container p {
     text-align: justify;
-    
     font-size: .8em;
+    border-bottom: 1px solid var(--azul-claro);
+    padding: 1em 0em;
+    margin-bottom: .5em;
 }
 
 .linha {
     margin: .5em;
     color: var(--azul-claro);
+    color: red;
 }
 
 .mensagem {
-    margin-top: 1em;
+    margin-top: .5em;
 }
 
 .input-personalizado {
@@ -86,39 +99,35 @@ body {
     width: 20em;
     
     border-radius: .5em;
-    border: 1px solid var(--azul-claro);
+    /* border: 1px solid var(--azul-claro); */
     padding: .3em;
     background-color: transparent;
-
+    
     color: var(--azul-claro);
 }
 
 .input-dados {
     border: none;
     border-radius: 0;
+    border-bottom: 1px solid var(--azul-claro);
 }
 
 #msg {
     resize: none;
-    background-color: inherit;
     border: transparent;
     border: 1px solid var(--azul-claro);
+    background-color: var(--cinza-50);
 }
+
+
 
 .botao {
     border-radius: .8em;
     border: transparent;
     padding: 0 1em;
-}
 
-#btn-login {
-    background-color: transparent;
-    color: var(--azul-claro);
-    border: 2px solid var(--verde);
-}
-
-#btn-login:hover {
     background-color: var(--verde);
+    color: var(--azul-claro);
 }
 
 #enviar {
@@ -138,12 +147,21 @@ body {
 
 #mulher {
     width: 40%;
-    bottom: 11em;
-    left: 7em;
+    bottom: 23em;
+    left: 13em;
 }
 
-#mancha2, #ramo {
-    display: none;
+#mancha2 {
+    width: 30%;
+    bottom: 12em;
+    right: 7.5em;
+    transform: rotate(90deg);
+}
+
+#ramo {
+    width: 25%;
+    bottom: 24.5em;
+    left: 3.5em;
 }
 
 /* Classes para manipular com JS */
@@ -158,6 +176,14 @@ body {
     color: var(--azul-claro);
 }
 
+.dark-btn {
+    color: var(--azul-claro);
+}
+
+.borda {
+    border-color: var(--azul-claro);
+}
+
 /* Light mode */
 
 .light {
@@ -166,5 +192,9 @@ body {
 }
 
 .light-header a {
+    color: var(--verde-escuro);
+}
+
+.light-btn {
     color: var(--verde-escuro);
 }
