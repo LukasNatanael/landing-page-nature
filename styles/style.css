@@ -37,9 +37,9 @@ body {
 }
 
 
-main {
+/* main {
     border: 1px solid red;
-}
+} */
 
 .cabecalho {
     display: flex;
