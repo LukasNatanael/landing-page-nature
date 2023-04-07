@@ -33,15 +33,19 @@ a {
 
 body {
     padding: 1em;
+    overflow: hidden;
 }
 
+/* main {
+    height: 89vh;
+} */
 
 .cabecalho {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1em;
-    font-size: 1em;
+    gap: .5em;
+    font-size: .9em;
 }
 
 
@@ -62,6 +66,8 @@ body {
 .navegacao {
     display: flex;
     gap: .4em;
+    justify-content: center;
+    align-items: center;
 }
 
 .conteudo {
@@ -197,4 +203,14 @@ body {
 
 .light-btn {
     color: var(--verde-escuro);
+}
+
+@media screen and (min-width: 950px) {
+
+    .cabecalho {
+        gap: 5em;
+    }
+    .navegacao {
+        gap: 5em;
+    }
 }
